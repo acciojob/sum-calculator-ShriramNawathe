@@ -1,1 +1,8 @@
 
+#container{
+    position: relative;
+    display: box;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
