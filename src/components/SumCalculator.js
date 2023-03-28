@@ -15,10 +15,18 @@ const SumCalculator = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="number-input">Enter a number:</label>
+    <div id="container">
+      <div id="title">
+        <h1>Sum Calculator</h1>
+
+      </div>
+      <div id="param"> 
+        <label htmlFor="number-input"></label>
       <input type="number" id="number-input" onChange={handleInputChange} />
       <p>Sum: {sum}</p>
+
+      </div>
+      
     </div>
   );
 };
